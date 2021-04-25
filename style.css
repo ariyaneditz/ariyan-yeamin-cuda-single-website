@@ -1,0 +1,490 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:focus{
+    outline: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    max-width: 1140px;
+    margin: auto;
+    overflow: hidden;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.header-section{
+    background: linear-gradient(#87509ce8,#87509ce8) , url(img/hero-bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    height: 85vh;
+}
+
+.logo{
+    float: left;
+    width: 125px;
+    margin: 35px 0;
+}
+
+.main-nav{
+    float: right;
+    margin: 48px 0;
+}
+
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.main-nav li a:hover{
+    background: #643a79; 
+}
+
+.main-nav .active{
+    background: #643a79;
+}
+
+.hero-text-box h1 {
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.btn{
+    color: white;
+    background: #eb7d4b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding:15px 60px;
+    text-align: center;
+    place-items: center;
+    display: block;
+    width: 150px;
+    margin: auto;
+    border-radius: 5px;
+    border-bottom: 4px solid #c86a40;
+}
+
+.services-section{
+    background: linear-gradient(rgba(23,194,164,.9),rgba(23,194,164,.9)) , url(img/services-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+h2:after {
+    content: "";
+    height: 4px;
+    width: 92px;
+    color: white;
+    background: #008d76;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .little-desc{
+      color: white;
+      text-align: center;
+      font-size: 18px;
+      padding-top: 20px;
+      width: 700px;
+      margin: auto;
+  }
+
+ .services-icon {
+    height: 120px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+ }
+
+ h3{
+     color: white;
+     font-size:25px;
+     text-transform: uppercase;
+     margin-bottom: 20px;
+     font-weight: 600;
+ }
+
+ p{
+     color: white;
+ }
+
+ .team-section{
+     background: linear-gradient(#e4f2fcd9  ,#e4f2fcd9 ) , url(img/team-bg.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     text-align: center;
+     color: black;
+ }
+
+ .team-section h2{
+     color: black ;
+ }
+
+ .team-section h2:after{
+     background: hsl(205, 39%, 72%);
+ }
+
+ .team-section .little-desc{
+     color: black;
+ }
+
+ .team-member{
+     height: 200px;
+     width: 200px;
+     border-radius: 50%;
+     margin-top: 40px;
+     margin-bottom: 30px;
+ }
+
+ .team-section h3{
+     color: black;
+     margin-bottom: 10px;
+ }
+
+ .role{
+     color: #23b0df;
+     margin-bottom: 20px;
+     display: block;
+ }
+
+ .team-section p{
+     color: #3c4761;
+     font-weight: 300;
+ }
+
+ .team-icon {
+     margin-top: 35px;
+ }
+
+ .team-icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+ }
+
+ .team-section ul li a i:before{
+     color: white;
+     background: #bdd1df;;
+     padding: 10px;
+     height: 20px;
+     width: 20px;
+     font-size: 20px;
+     border-radius: 50%;
+     display: inline-block;
+     transition: .5s;
+ }
+
+ .team-section ul li a:hover i:before{
+     background: #393939;
+     transform: rotate(360deg);
+ }
+
+ .skill-section{
+     background: linear-gradient(#ffffffe8, #ffffffe8), url(img/skill-bg.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: fixed;
+     text-align: center;
+ }
+
+ .skill-section h2{
+     color: #3c4761;
+     ;
+ }
+
+ .skill-section h2:after{
+     background: #dfe8ed;;
+ }
+
+ .skill-section .little-desc{
+     color: #3c4761;
+     margin-bottom: 30px;;
+ }
+
+ svg.radial-progress circle{
+    stroke-width:5;
+}
+
+svg.radial-progress text{
+    fill:#3c4761;
+    font-size: 1.5rem;
+}
+
+svg.web-design circle{
+    stroke:#30bae7
+}
+
+svg.html-css circle{
+    stroke:#d74680
+}
+
+svg.graphic-design circle{
+    stroke:#15c7a8
+}
+
+svg.ui-ux circle{
+    stroke:#eb7d4b
+}
+
+.skill-section h3{
+    color:#3c4761 ;
+}
+
+.portfolio{
+    background: linear-gradient(#ffd684db,#ffd684db), url(img/portfolio-bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+.portfolio h2{
+    color:#3c4761;
+}
+
+.portfolio h2:after{
+    background:hsl(40, 54%, 64%)
+}
+
+.portfolio .little-desc{
+    color: #3c4761;;
+}
+
+.portfolio-filter{
+    margin-top: 40px;
+}
+
+.portfolio-filter li{
+    display: inline-block;
+    text-transform: uppercase;
+    background:hsl(40, 68%, 70%);
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 60px;
+    color: #3c4761;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.portfolio-filter li:hover{
+    box-shadow: inset 0px 3px 6px #161616;
+}
+
+.portfolio-filter li:first-child{
+    background: white;
+}
+
+.portfolio .span_1_of_2 {
+    width: 48.2%;
+}
+
+.portfolio h4{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.testimonial{
+    background: linear-gradient(#c82b69db,#c82b69db), url(img/testimonial-bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.testimonial h2{
+    word-spacing: 10px;
+    letter-spacing: 6px;
+}
+
+.testimonial h2:after{
+    background: white;
+}
+
+.testimonial .col {
+        display: block;
+        float: left;
+        margin: 1% 0 1% .8%;
+}
+
+.client-photo{
+    width: 20%;
+    float: left;
+    margin-top: 30px;
+}
+
+.client-photo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.client-review{
+    margin-top: 30px;
+    float: left;
+    width: 70%;
+}
+
+.client-review p{
+    font-size: 18px;
+    font-style: italic;
+    line-height: 29px;
+    width: 350px;
+    text-align: laft;
+    margin-bottom: 20px;
+}
+
+.client-review .role{
+    color: #fd9;
+
+}
+
+.client-review h3{
+    margin-bottom: 10px;
+}
+
+.contact{
+    background: linear-gradient(rgba(60,84,153,.9),rgba(60,84,153,.9)) , url(img/contact-bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.contact h2:after{
+    background: #273a71;
+    margin-bottom: 20px;;
+}
+
+form{
+    margin: auto;
+    margin-top: 60px;
+    width: 70%;
+}
+
+.inputnm,
+.inputeml,
+textarea {
+    width: 100%;
+    background: #273a71;
+    border: none;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+textarea{
+    margin-bottom: 50px;
+    font-family: 'Titillium Web', sans-serif
+}
+
+.contact .btn-input{
+    background: rgb(54, 151, 184);
+    display: inline-block;
+    margin-top: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 17px 60px;
+    border:none;
+    color: white;
+    text-transform: uppercase ;
+    font-size: 16px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border-bottom: 3px solid #057581;
+    cursor: pointer;
+}
+
+.contact form ::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.footer{
+    background: #344b8e;
+    border-top: 1px solid rgba(247, 247, 247, 0.575);
+    text-align: center;
+    padding: 27px 0;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    text-transform: capitalize;
+    transition: .5s;
+}
+
+.footer ul li a:hover{
+    color: #30bae7;
+}
+
+.sticky{
+    position: fixed;
+    width: 100%;
+    background: #87509c;
+    z-index: 9990;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 1px 8px white;
+}
+
+.sticky .logo{
+    margin: 7px 0;
+}
+
+.sticky .main-nav{
+    margin: 18px 0;
+}
